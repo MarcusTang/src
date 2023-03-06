@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+  font-family: "Rubik", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 5rem;
+  line-height: 6.4rem;
+  color: #222;
+}
+
+h2 {
+  font-size: 4.6rem;
+  line-height: 5.4rem;
+  color: #222;
+}
+
+h4 {
+  font-size: 2rem;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+p {
+  font: szie 1.6rem;
+  color: #465b52;
+  margin: 1.5rem 0 2rem 0;
+}
+
+body {
+  width: 100%;
+}
+/* Header */
+/*-------------------Top contacts and Search*/
+.contact-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 1.5rem;
+}
+.contacts-box-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.contacts-box-list li {
+  display: inline-flex;
+  list-style: none;
+  padding: 0 2rem;
+  color: aliceblue;
+}
+
+.contacts-box-list li a {
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.contact-icon {
+  height: 2rem;
+  width: 2rem;
+  padding: 0 1rem;
+  color: black;
+  background-color: white;
+  border-radius: 0.6rem;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.top-search-bar {
+  height: 4rem;
+  width: 30rem;
+}
+
+.media-icon {
+  color: white;
+  height: 3rem;
+  width: 3rem;
+}
+
+.contacts-box-list li a:hover,
+.media-icon:hover {
+  color: #418ee1;
+}
+
+/* .top-search-bar:hover {
+  border-color: #418ee1;
+} */
+
+/*-------------------Navigation*/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 8rem;
+  background-color: #e3e6f3;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.06);
+}
+
+.logo {
+  height: 8rem;
+  width: 10rem;
+}
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav-list li {
+  list-style: none;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.main-nav-list li a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+
+.main-nav-list li a:hover,
+.main-nav-list li a.active {
+  color: #088178;
+}
+
+.main-nav-list li a.active::after,
+.main-nav-list li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 0.2rem;
+  background-color: #088178;
+  position: absolute;
+  bottom: -0.4rem;
+  left: 2rem;
+}
+
+/* Home Page */
+/*----------- Hero Section */
+
+/* Shop Page */
+/* Single Product */
+/* Blog Page */
+
+/*helper */
+.section-p1 {
+  padding: 4rem 8rem;
+}
+
+.section-m1 {
+  margin: 4rem 0;
+}
+
+.text-p1 {
+  padding-left: 1rem;
+}
