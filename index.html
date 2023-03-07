@@ -21,6 +21,7 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
 
   <body>
@@ -29,7 +30,10 @@
         <div class="contacts-box">
           <ul class="contacts-box-list">
             <li>
-              <a><ion-icon class="contact-icon" name="call-outline"></ion-icon><span class="text-p1">778-xxx-xxxx</span></a>
+              <a
+                ><ion-icon class="contact-icon" name="call-outline"></ion-icon
+                ><span class="text-p1">778-xxx-xxxx</span></a
+              >
             </li>
             <li>
               <a
@@ -40,15 +44,16 @@
           </ul>
         </div>
         <div class="search-bar">
-          <input class='top-search-bar' type="text" placeholder="Search.." />
+          <input class="top-search-bar" type="text" placeholder="Search.." />
           <div>
-            <a><ion-icon class="media-icon" name="logo-instagram"></ion-icon></a>
+            <a
+              ><ion-icon class="media-icon" name="logo-instagram"></ion-icon
+            ></a>
             <a><ion-icon class="media-icon" name="logo-facebook"></ion-icon></a>
           </div>
         </div>
       </div>
-        
-      </div>
+
       <div class="nav">
         <div>
           <a href="#"><img src="img/logo-rb.png" class="logo" alt="" /></a>
@@ -61,25 +66,194 @@
             <li><a href="info-faqs.html">INFO/FAQS</a></li>
             <li><a href="contact.html">CONTACT US</a></li>
             <li><a href="cart.html">CONTACT US</a></li>
-            <li> <a><ion-icon name="person-outline"></ion-icon><span class="text-p1">Login In</span></a></li>
-            <li><a><ion-icon name="cart-outline"></ion-icon><span class="text-p1">[0] $0.00</span></a></li>
+            <li>
+              <a
+                ><ion-icon name="person-outline"></ion-icon
+                ><span class="text-p1">Login In</span></a
+              >
+            </li>
+            <li>
+              <a
+                ><ion-icon name="cart-outline"></ion-icon
+                ><span class="text-p1">[0] $0.00</span></a
+              >
+            </li>
           </ul>
         </nav>
       </div>
     </header>
-
-    <section class="hero-section">
-      <div class="hero-text-box">
-        <h1 class="heading-primary">
-          Your  aquaculture coral experts
-        </h1>
-        <div class="hero-description">
-          <p>We are working hard to update our inventory and add WYSIWYG</p>
-          <a href="corals.html" class="btn btn--outline">Shop Now</a>
+    <main>
+      <section class="section-hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">Your aquaculture coral experts</h1>
+          <div class="hero-description">
+            <p>We are working hard to update our inventory and add WYSIWYG</p>
+            <a href="corals.html" class="btn btn--outline">Shop Now</a>
+          </div>
         </div>
-       
-      </div>
-    </section>
-    <script src="script.js"></script>
+      </section>
+
+      <section class="section-types">
+        <div class="types-box">
+          <div class="type-box">
+            <div class="types-image-box">
+              <img
+                src="/img/SPS/Polyp-Stony-Coral-example-1.webp"
+                class="types-image"
+              />
+            </div>
+            <div class="types-description-box">
+              <h4 class="heading-types">SPS</h4>
+              <p class="types-description">
+                Acropora, Montipora, etc. With substantial water flow, strong
+                lighting and consistent water parameters, it can be easy to
+                attain a thriving 'Small Polyp Stony' dominant reef aquarium.
+              </p>
+
+              <a class="btn btn--full">SHOP NOW</a>
+            </div>
+          </div>
+          <div class="type-box">
+            <div class="types-image-box">
+              <img src="/img/LPS/LPS_example.webp" class="types-image" />
+            </div>
+            <div class="types-description-box">
+              <h4 class="heading-types">LPS</h4>
+              <p class="types-description">
+                Torch, hammer, favia, goniopora, etc. Some of the most popular
+                corals amongst new and advanced marine hobbyists, 'Large Polyp
+                Stony' corals add variety and colour to any reef.
+              </p>
+
+              <a class="btn btn--full">SHOP NOW</a>
+            </div>
+          </div>
+          <div class="type-box">
+            <div class="types-image-box">
+              <img
+                src="/img/SOFTIES/SOFTIES_example.webp"
+                class="types-image"
+              />
+            </div>
+            <div class="types-description-box">
+              <h4 class="heading-types">SPS</h4>
+              <p class="types-description">
+                Soft Corals: Zoanthids, Palythoas, Mushrooms and more. These
+                species are often a good choice for beginners, but also
+                favourites amongst collectors.
+              </p>
+
+              <a class="btn btn--full">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-products">
+        <div class="container text-center">
+          <h2 class="heading-secondary">Part Of Products</h2>
+        </div>
+        <div class="products-box">
+          <div class="product">
+            <img src="/img/LPS/LPS_example.webp" class="coral-img" alt="" />
+            <div class="coral-content">
+              <div class="coral-tag">
+                <span class="tag">LPS</span>
+              </div>
+              <p class="coral-title">Coral 1</p>
+              <ul class="coral-attributes">
+                <li class="coral-attribute">
+                  <ion-icon name="cash-outline" class="coral-icon"></ion-icon>
+                  <span>Price:<strong>$ 17.5</strong></span>
+                </li>
+                <li class="coral-attribute">
+                  <ion-icon
+                    name="stats-chart-outline"
+                    class="coral-icon"
+                  ></ion-icon>
+                  <span>head:<strong>2</strong></span>
+                </li>
+                <li class="coral-attribute">
+                  <a class="btn btn--full">
+                    <ion-icon name="cart-outline" class="coral-icon"></ion-icon
+                    >Add To Cart</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product">
+            <img
+              src="/img/SPS/Polyp-Stony-Coral-example-1.webp"
+              class="coral-img"
+              alt=""
+            />
+            <div class="coral-content">
+              <div class="coral-tag">
+                <span class="tag">SPS</span>
+              </div>
+              <p class="coral-title">Coral 2</p>
+              <ul class="coral-attributes">
+                <li class="coral-attribute">
+                  <ion-icon
+                    name="cash-outline"
+                    class="coral-icon"
+                    class="coral-icon"
+                  ></ion-icon>
+                  <span>Price:<strong>$ 17.5</strong></span>
+                </li>
+                <li class="coral-attribute">
+                  <ion-icon
+                    name="stats-chart-outline"
+                    class="coral-icon"
+                  ></ion-icon>
+                  <span>Size:<strong>2</strong> inch</span>
+                </li>
+                <li class="coral-attribute">
+                  <a class="btn btn--full">
+                    <ion-icon name="cart-outline" class="coral-icon"></ion-icon
+                    >Add To Cart</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="product">
+            <img
+              src="/img/SOFTIES/SOFTIES_example-1.webp"
+              class="coral-img"
+              alt=""
+            />
+            <div class="coral-content">
+              <div class="coral-tag">
+                <span class="tag">SOFTIES</span>
+              </div>
+              <p class="coral-title">Coral 3</p>
+              <ul class="coral-attributes">
+                <li class="coral-attribute">
+                  <ion-icon name="cash-outline" class="coral-icon"></ion-icon>
+                  <span>Price:<strong>$ 17.5</strong></span>
+                </li>
+                <li class="coral-attribute">
+                  <ion-icon
+                    name="stats-chart-outline"
+                    class="coral-icon"
+                  ></ion-icon>
+                  <span>head:<strong>2</strong></span>
+                </li>
+                <li class="coral-attribute">
+                  <a class="btn btn--full">
+                    <ion-icon name="cart-outline" class="coral-icon"></ion-icon
+                    >Add To Cart</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
