@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Tiny Aquatics</title>
+
+    <link rel="icon" href="img/logo-rb.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="'stylesheet" href="login.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="contact-search">
+        <div class="contacts-box">
+          <ul class="contacts-box-list">
+            <li>
+              <a
+                ><ion-icon class="contact-icon" name="call-outline"></ion-icon
+                ><span class="text-p1">778-xxx-xxxx</span></a
+              >
+            </li>
+            <li>
+              <a
+                ><ion-icon class="contact-icon" name="mail-outline"></ion-icon
+                ><span class="text-p1">tinyaquatics@gmail.com</span></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="search-bar">
+          <input class="top-search-bar" type="text" placeholder="Search.." />
+          <div>
+            <a
+              ><ion-icon class="media-icon" name="logo-instagram"></ion-icon
+            ></a>
+            <a><ion-icon class="media-icon" name="logo-facebook"></ion-icon></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav">
+        <div>
+          <a href="#"><img src="img/logo-rb.png" class="logo" alt="" /></a>
+        </div>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="corals.html">CORALS</a></li>
+            <li><a href="wysiwyg.html">WYSIWYG</a></li>
+            <li><a href="info-faqs.html">INFO/FAQS</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="cart.html">CART</a></li>
+            <li>
+              <a href="login.html"
+                ><ion-icon name="person-outline"></ion-icon
+                ><span class="text-p1">Login</span></a
+              >
+            </li>
+            <li>
+              <a href="cart.html"
+                ><ion-icon name="cart-outline"></ion-icon
+                ><span class="text-p1">[0] $0.00</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="section-hero"></section>
+
+      <section class="section-log-sign">
+        <div class="log-in-box">
+          <h2 class="box-title">Log In</h2>
+          <form class="login-form" name="login">
+            <div>
+              <label for="name-email"> UserName or Email</label>
+              <input
+                id="name-email"
+                type="text"
+                placeholder="Marco or me@example.com"
+                name="username-email"
+                required
+              />
+            </div>
+            <div>
+              <label for="password"> Password</label>
+              <input
+                id="password"
+                type="text"
+                placeholder=" "
+                name="password"
+                required
+              />
+            </div>
+          </form>
+          <div>
+            <button>LOG IN</button>
+            <input type="checkbox" id="rememberMe" name="remember-me" />
+            <label for="rememberMe">Remember Me</label>
+            <a> Forget Password </a>
+          </div>
+        </div>
+        <div class="sign-up-box">
+          <h2 class="box-title">Sign Up</h2>
+          <form class="login-form" name="login">
+            <div>
+              <label for="name-email">Email</label>
+              <input
+                id="name-email"
+                type="text"
+                placeholder="me@example.com"
+                name="username-email"
+                required
+              />
+            </div>
+            <div>
+              <label for="password"> Password</label>
+              <input
+                id="password"
+                type="text"
+                placeholder=" "
+                name="password"
+                required
+              />
+            </div>
+          </form>
+          <div>
+            <button>Sign Up</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="grid-footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              src="/img/logo-rb.png"
+              alt="Tiny Aquatics Logo"
+              class="footer-logo-icon"
+            />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2023</span> by Tiny Aquatics,
+            Inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">623 foo St., Richmond,Vancouver V66666</p>
+            <p>
+              <a class="footer-link" href="tel:778-xxx-xxxx">778-xxx-xxxx</a
+              ><br />
+              <a class="footer-link" href="mailto:tinyaquatics@gmail.com"
+                >tinyaquatics@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Qucik Links</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="index.html">HOME</a></li>
+            <li><a class="footer-link" href="corals.html">CORALS</a></li>
+            <li><a class="footer-link" href="wysiwyg.html">WYSIWYG</a></li>
+            <li><a class="footer-link" href="info-faqs.html">INFO/FAQS</a></li>
+            <li><a class="footer-link" href="contact.html">CONTACT US</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Qucik Links</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="LPS">LPS</a></li>
+            <li><a class="footer-link" href="SPS">SPS</a></li>
+            <li><a class="footer-link" href="Softies">Softies</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
